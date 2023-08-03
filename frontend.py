@@ -19,6 +19,10 @@ def main():
     st.title("🤔 ForgetNothin")
     st.subheader("Reminder app, SMS based. Bare-bones, no fluff")
 
+    left_co, cent_co, last_co = st.columns(3)
+    with cent_co:
+        st.image('demo.gif')
+
     st.divider()
 
     st.subheader("Join the beta")
